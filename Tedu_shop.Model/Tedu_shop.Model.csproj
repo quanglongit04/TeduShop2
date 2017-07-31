@@ -47,11 +47,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abtracts\AuditTable.cs" />
+    <Compile Include="Abtracts\IAuditTable.cs" />
+    <Compile Include="Abtracts\ISeoable.cs" />
+    <Compile Include="Abtracts\ISwitchable.cs" />
+    <Compile Include="Abtracts\MaxlengthAttribute.cs" />
+    <Compile Include="Abtracts\Seoable.cs" />
+    <Compile Include="Abtracts\Switchable.cs" />
+    <Compile Include="Model\Footer.cs" />
+    <Compile Include="Model\IEnumberable.cs" />
+    <Compile Include="Model\keyAttribute.cs" />
+    <Compile Include="Model\Menu.cs" />
+    <Compile Include="Model\MenuGroup.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\OrderDetail.cs" />
+    <Compile Include="Model\Page.cs" />
+    <Compile Include="Model\Post.cs" />
+    <Compile Include="Model\PostCategory.cs" />
+    <Compile Include="Model\PostTag.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductTag.cs" />
+    <Compile Include="Model\Product_Category.cs" />
+    <Compile Include="Model\requiredAttribute.cs" />
+    <Compile Include="Model\Slide.cs" />
+    <Compile Include="Model\SupportOnline.cs" />
+    <Compile Include="Model\SystemConfig.cs" />
+    <Compile Include="Model\Tag.cs" />
+    <Compile Include="Model\VisitorStatistic.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\Tedu_shop.Model.dll.config" />
+    <None Include="obj\Debug\CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Tedu_shop.Model.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\CoreCompileInputs.cache" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\Tedu_shop.Model.dll" />
+    <Content Include="bin\Debug\Tedu_shop.Model.pdb" />
+    <Content Include="obj\Debug\Tedu_shop.Model.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Tedu_shop.Model.dll" />
+    <Content Include="obj\Debug\Tedu_shop.Model.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
